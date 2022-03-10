@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header> 
+        <a href="home.html" class ="logo"><span>W</span>eb Admin 101</a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="ftp.html">FTP Client Softwares</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="banner">
+    </div>
+
+    <div class="content">
+        <h1>WEB ADMINISTRATION 101</h1>
+        <p>Learn About Web Servers Here!</p>
+             <div >
+                <a href="#details"><button class ="btn" type="button">What Are Web Servers?</button></a>
+             </div>
+    </div>
+    
+    <div class="details" id="details">
+        <div class ="row">
+            <div class="col50">
+                 <h1 class ="titleText">Popular Web Servers</h1>
+                 
+                 <p> 
+                     <br>
+                     <ul> 
+                         <li>
+                             Apache HTTP Server
+                         </li>
+                         <br>
+                         <li>
+                             Nginx Web Server
+                         </li>
+                         <br>
+                         <li>
+                             Lighttpd Web Server
+                         </li>
+                         <br>
+                         <li>
+                             Caddy Web Server
+                         </li>
+                     </ul>
+                  </p>
+            </div>   
+            <div class="col50" >
+               <div class ="imgBx">
+                <h2 class ="titleText">What Are Web Servers?</h2>
+                <br>
+                <p> On the hardware side, a web server is a computer that stores web server software and a website's component files.
+                    (for example, HTML documents, images, CSS stylesheets, and JavaScript files) A web server connects to the Internet
+                    and supports physical data interchange with other devices connected to the web.</p>
+                     <br>
+                     <p>On the software side, a web server includes several parts that control how web users access hosted files. At a minimum, 
+                     this is an HTTP server. An HTTP server is software that understands URLs (web addresses) and HTTP (the protocol your browser
+                     uses to view webpages). An HTTP server can be accessed through 
+                     the domain names of the websites it stores, and it delivers the content of these hosted websites to the end user's device.
+                    </p>
+                </div>   
+                        
+            </div>
+            
+        </div> 
+         
+    </div>
+    <div class="details" id="details">
+        <div class ="row">
+            <div class="col50">
+                 <h2 class ="titleText"><span>W</span>eb Server Features</h2><br>
+                 <h2 class ="titleText">Apache Web Server Operating System Requirements</h2><br>
+                 <p>
+                    The primary Windows platform for running Apache 2.4 is Windows 2000 or later. Always obtain and install the current service pack to avoid operating system bugs.
+
+                    Apache HTTP Server versions later than 2.2 will not run on any operating system earlier than Windows 2000.
+                 </p>
+                 <br>
+                 <h2 class ="titleText">Programming Language (software) Compatibility </h2><br>
+                 <p>
+                    Apache is the web server that processes requests and serves web assets and content via HTTP.
+                     MySQL is the database that stores all your information in an easily queried format.    
+                     PHP is the programming language that works with apache to help create dynamic web content.
+                 </p>
+                 <p>
+                    Most WordPress hosting providers use Apache as their web server software.
+                     However, WordPress can run on other web server software as well.
+                 </p>
+            </div>   
+            <div class="col50" >
+               <div class ="imgBx">
+                   <img src="apache.png">
+               </div>
+            </div>
+            
+        </div> 
+         
+    </div>
+    <div class="details" id="details">
+        <div class ="row">
+            <div class="col50">
+                 <br>
+                 <h2 class ="titleText">Nginx Web Server Operating System Requirements</h2><br>
+                 <p>
+                    The goal behind NGINX was to create the fastest web server around, and maintaining that excellence is still a central 
+                    goal of the project. NGINX consistently beats Apache and other servers in benchmarks measuring web server performance. 
+                    Since the original release of NGINX, however, websites have expanded from simple HTML pages to dynamic, multifaceted content.
+                    NGINX has grown along with it and now supports all the components of the modern Web, including WebSocket, HTTP/2,
+                    gRPC, and streaming of multiple video formats (HDS, HLS, RTMP, and others).
+                 </p>
+                 <br>
+                 <br>
+                 <p>
+                    What OS does NGINX run on?
+                    Nginx is free and open-source software, released under the terms of the 2-clause BSD license.
+                    Operating system	BSD variants, HP-UX, IBM AIX, Linux, macOS, Solaris, Microsoft Windows, and other *nix flavors
+                    Type	Web server, reverse/mail proxy server
+                    License	2-clause BSD
+
+                 </p>
+                 <br>
+                 <h2 class ="titleText">Programming Language (software) Compatibility </h2><br>
+                 <p>
+                    The NGINX source code is written in the C programming language by Kernighan and Ritchie and maintains a consistent style.
+                 </p>
+                 <p>
+                    <br>
+                    <li><a href="https://docs.nginx.com/">Click Here For More NGINX ...</a></li>
+                 </ul> 
+                 </p>
+            </div>   
+            <div class="col50" >
+               <div class ="imgBx">
+                   <img src="nx.png">
+               </div>
+            </div>
+            
+        </div> 
+         
+    </div>
+    <div class="details" id="details">
+        <div class ="row">
+            <div class="col50">
+                 <br>
+                 <h2 class ="titleText">Caddy Web Server Operating System Requirements</h2><br>
+                 <p>
+                    Caddy is the only web server that uses HTTPS by default. 
+                    As its primary mode of configuration, Caddy's REST API makes it easy to automate and integrate with your apps. 
+                    No Dependencies. Because Caddy is written in Go, its binaries are entirely self-contained and run on every platform,
+                    including containers without libc.
+
+                 </p>
+                 <br>
+                 <br>
+                 <p>
+                    What OS does Caddy run on?
+
+                    Operating system	BSD variants, Linux, Plan 9, macOS and Windows
+                 </p>
+                 <br>
+                 <h2 class ="titleText">Programming Language (software) Compatibility </h2><br>
+                 <p>
+                   Most people use Caddy as a web server or proxy, but at its core, Caddy is a server of servers. With the requisite modules, it can take on the role of any long-running process!
+
+                   Configuration is both dynamic and exportable with Caddy's API. Although no config files required, you can still use them; most people's favorite way of configuring Caddy is using the Caddyfile. The format of the config document takes many forms with config adapters, but Caddy's native config language is JSON.
+
+                   Caddy compiles for all major platforms and has no runtime dependencies.
+                 </p>
+                 <p>
+                    <br>
+                    <li><a href="https://caddyserver.com/">Click Here For More Caddy ...</a></li>
+                 </ul> 
+                 </p>
+            </div>   
+            <div class="col40" >
+               <div class ="imgBx">
+                   <img src="cad.jpg">
+               </div>
+            </div>
+            
+        </div> 
+         
+    </div>
+    <!-- begin wwww.htmlcommentbox.com -->
+ <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+ <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+ <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24MFj%2Fyt2.pSPi1.jnwjbB4%2F"+"&opts=16798&num=10&ts=1646491764531");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+<!-- end www.htmlcommentbox.com -->
+    
+    <footer>
+        <div class="copyrightText">
+            <p>&copy; Copyright 2021 <a href="#">Web Admin 101</a> Created by Web Admin. All Rights Reserved.</p>
+        </div>
+     </footer>
+</body>
+</html>
